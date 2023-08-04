@@ -1,0 +1,32 @@
+.ex1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.ex2 {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+table,
+td {
+  padding: 0px;
+  margin: 0px;
+  cellspacing: 0;
+  cellpadding: 0;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border: none;
+}
+img {
+  display: block;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+}
+#border{
+  border-radius: 10px;
+  border: 5px solid #ff0000;
+}
